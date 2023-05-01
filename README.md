@@ -1,4 +1,4 @@
-# PHP Development Servier with Docker Compose
+# PHP Development Server with Docker Compose
 
 ## Prerequisites
 
