@@ -1,0 +1,9 @@
+version: "3.0"
+services:
+  phpapp:
+    image: php:8.1-cli
+    command: php -S 0.0.0.0:3000 -t /app/
+    volumes:
+      - ./app:/app
+    ports:
+      - 3000:3000
